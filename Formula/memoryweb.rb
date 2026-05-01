@@ -10,24 +10,24 @@ class Memoryweb < Formula
   on_macos do
     on_intel do
       url "https://github.com/corbym/memoryweb/releases/download/v#{version}/memoryweb_v#{version}_darwin_amd64.tar.gz"
-      sha256 "8d97ea78b5c1ec03ad0e62af09e573ad0fbe02eecc1584228ac8553d0ca35a0b"
+      sha256 "6a109f6b474fa42c7b72b9a7351234f28d75cb4d930b98b95c2eefe881885861"
     end
 
     on_arm do
       url "https://github.com/corbym/memoryweb/releases/download/v#{version}/memoryweb_v#{version}_darwin_arm64.tar.gz"
-      sha256 "bfb0683853f6ae7de20d3b6c79c8b956e2d19092a36d5a57642103707db16ce7"
+      sha256 "241d0af3cc4eeef4beeba83b36af4ff5571dcb07374bd52852c6ccba04039c41"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/corbym/memoryweb/releases/download/v#{version}/memoryweb_v#{version}_linux_amd64.tar.gz"
-      sha256 "ede6f540b74cac55e51be4adf5574f3894758525a84ed949379033804e03cf4a"
+      sha256 "19d09b3db0dd66e14533cc5f7cb3dc48ba86e0a200dba64831fbce834743f550"
     end
 
     on_arm do
       url "https://github.com/corbym/memoryweb/releases/download/v#{version}/memoryweb_v#{version}_linux_arm64.tar.gz"
-      sha256 "df807ba82805cf3ebac11165f71f2361cd61d921ab0072b2d5626379a4f5bfb1"
+      sha256 "1fda24cff0a1d7cf0f6317835504089e60beff1c279940402ca0334b5ed0889b"
     end
   end
 
