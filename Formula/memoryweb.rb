@@ -4,30 +4,30 @@
 class Memoryweb < Formula
   desc "Persistent knowledge graph MCP server for AI agents"
   homepage "https://github.com/corbym/memoryweb"
-  version "1.5.0"
+  version "1.6.0"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/corbym/memoryweb/releases/download/v#{version}/memoryweb_v#{version}_darwin_amd64.tar.gz"
-      sha256 "2b73f372ee8b6997f7778c6726b2695ef9c93bdd009c28c780acc7fc53b5e95e"
+      sha256 "de1198c4b6a5d26df64b89ac2adafe28689b74950db6ef9600c1b8390c5f345d"
     end
 
     on_arm do
       url "https://github.com/corbym/memoryweb/releases/download/v#{version}/memoryweb_v#{version}_darwin_arm64.tar.gz"
-      sha256 "311518c6826d51598e035c4ba5f1d6df454e2d327e8960e0d932f0bb67e4b99a"
+      sha256 "e1aa626438dee863a641608aa83cfabcd064a8a5d373a0467b6f903807622cb5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/corbym/memoryweb/releases/download/v#{version}/memoryweb_v#{version}_linux_amd64.tar.gz"
-      sha256 "62a4bbc9a711c46b18ca357ea57eccac39747c2d6de90914a53a434608663b65"
+      sha256 "939c3f52dae6213edb2789faf3e99675b96a29e98fc1a8206ebff65e93921baa"
     end
 
     on_arm do
       url "https://github.com/corbym/memoryweb/releases/download/v#{version}/memoryweb_v#{version}_linux_arm64.tar.gz"
-      sha256 "60d29ecb6c48331f7a7b6da4b1c37bb5436ab3596c2840cd299ddb099ca82a59"
+      sha256 "8bd2e89a8938096cb84f1bb410dd7160c2b86052fbe0f0ba8dea6dcec8cc7f86"
     end
   end
 
